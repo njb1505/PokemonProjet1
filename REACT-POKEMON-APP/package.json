@@ -1,0 +1,38 @@
+{
+  "name": "react-pokemons-app",
+  "version": "1.0.0",
+  "description": "An awesome application to handle some pokemons.",
+  "dependencies": {
+    "@types/node": "12.11.1",
+    "@types/react-router-dom": "^5.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "start:api": "json-server --watch src/models/db.json --port=3001 --delay=500",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.2.2"
+  }
+}
